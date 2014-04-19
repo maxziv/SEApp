@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    
+
+    <link href={{ url_for('static', filename='../static/Flat-UI-master/bootstrap/css/bootstrap.css' )}} rel="stylesheet">
+    <link href={{ url_for('static', filename='../static/Flat-UI-master/css/flat-ui.css' )}} rel="stylesheet">
+    <link href={{ url_for('static', filename='../static/Flat-UI-master/images/favicon.ico' )}} rel="shortcut icon">
+
+
+<!--     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+ -->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style=''> <!--for the navibar always top-->
+    
+    <div>
+
+
+    {% include "_header_home.html" %}
+
+        
+    </div>
+        <div id='feature-div' class='container-fluid palette-sun-flower' style='height:700px;padding-top:53px'>
+            
+            <div class='row'>
+            <div style='height:140px'></div>
+            <div class='col-md-offset-4 col-md-4'><h2 align="center">Welcome!</h2>
+            <h5 align="center">Hout is an event-driven social platform for users to make friends with people nearby.</h5>
+            </div>
+
+            </div>
+        </div>
+        
+       <!-- <div id='map-div' class='container-fluid ' style='padding-top:53px'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11986.673523220672!2d-72.92226630003638!3d41.31607728730603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7d9b6cd624945%3A0xae34a2c4b4d30427!2sYale+University!5e0!3m2!1sen!2sus!4v1393836015333" width="100%" height="680" padding='0' margin='0' frameborder="0" style="border:0"></iframe>
+        </div> -->
+
+
+    <!-- <div id='map-div' class='container-fluid ' style='padding-top:53px'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47967.07159745638!2d-72.95904475000005!3d41.288367300000026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7d9b6cd624945%3A0xae34a2c4b4d30427!2sYale+University%2C+New+Haven%2C+CT!5e0!3m2!1sen!2sus!4v1391542312443" width="100%" height="680" padding='0' margin='0' frameborder="0" style="border:0"></iframe>
+    </div> -->
+    
+
+    
+    <div id='team-div' class='container-fluid palette-concrete' style="height:600px;padding-top:53px">
+        
+        <div class='row'>
+        <div class="col-md-1"></div>
+        <div class="col-md-6">    
+            <h2>Team Members</h2>
+
+            <div class='row'><div class="col-md-4"> 
+            <h6 data-toggle="tooltip" data-placement="right" title="PM" title="Dev">Hushiyang Liu</h6>
+            <h6 data-toggle="tooltip" data-placement="right" title="PM" title="Dev">Mengci Liu</h6>
+            <h6 data-toggle="tooltip" data-placement="right" title="Dev" title="Dev">Meng Li</h6>
+            <h6 data-toggle="tooltip" data-placement="right" title="Dev" title="Dev">Tianxiong Jiang</h6>
+            <h6 data-toggle="tooltip" data-placement="right" title="Dev" title="Dev">Zhewu Zhou</h6>
+            <h6 data-toggle="tooltip" data-placement="right" title="Dev" title="Dev">Yuan Xia</h6>
+            <h6 data-toggle="tooltip" data-placement="right" title="Dev" title="Dev">Haotian Xu</h6>
+            </div>
+            </div>
+        </div>
+       </div>
+       
+       
+    </div>
+
+ 
+    </div>
+    <!--body-->
+
+
+    <!-- Load JS here for greater good =============================-->
+    <script src={{ url_for('static', filename='../static/Flat-UI-master/js/jquery-1.8.3.min.js')}} ></script>
+    <script src={{ url_for('static', filename='../static/Flat-UI-master/js/jquery-ui-1.10.3.custom.min.js')}} ></script>
+    <script src={{ url_for('static', filename='../static/Flat-UI-master/js/jquery.ui.touch-punch.min.js')}} ></script>
+    <script src={{ url_for('static', filename='../static/Flat-UI-master/js/bootstrap.min.js')}} ></script>
+    <script src={{ url_for('static', filename='../static/Flat-UI-master/js/bootstrap-select.js')}} ></script>
+    <script src={{ url_for('static', filename='../static/Flat-UI-master/js/bootstrap-switch.js')}} ></script>
+    <script src={{ url_for('static', filename='../static/Flat-UI-master/js/flatui-checkbox.js')}} ></script>
+    <script src={{ url_for('static', filename='../static/Flat-UI-master/js/flatui-radio.js')}} ></script>
+    <script src={{ url_for('static', filename='../static/Flat-UI-master/js/jquery.tagsinput.js')}} ></script>
+    <script src={{ url_for('static', filename='../static/Flat-UI-master/js/jquery.placeholder.js')}} ></script>
+    <script src={{ url_for('static', filename='../static/Flat-UI-master/js/jquery.scrollTo.min.js')}} ></script>
+        
+
+    <script src={{ url_for('static', filename='../static/jquery-pageslide/jquery.pageslide.min.js')}} ></script>
+    <link href={{ url_for('static', filename='../static/jquery-pageslide/jquery.pageslide.css' )}} rel="stylesheet">
+
+    <script>
+        $(document).ready(function() {   
+          
+
+          $('#team-div h6,button,div').tooltip();
+
+          $('#nav-feature-div').click(function(event){
+            $('html, body').animate({ scrollTop: $('#feature-div').offset().top}, 600);
+            
+
+            $('.navbar-nav li').each(function(i,dom){
+                $(dom).removeClass('active')
+            });
+            $(this).addClass('active');
+          });
+
+          $('#nav-map-div').click(function(event){
+            $('html, body').animate({ scrollTop: $('#map-div').offset().top}, 600);
+
+            $('.navbar-nav li').each(function(i,dom){
+                $(dom).removeClass('active')
+            });
+            $(this).addClass('active');
+          });
+          
+          $('#nav-team-div').click(function(event){
+            $('html, body').animate({ scrollTop: $('#team-div').offset().top}, 600);
+
+            $('.navbar-nav li').each(function(i,dom){
+                $(dom).removeClass('active')
+            });
+            $(this).addClass('active');
+          });
+        
+
+        /*$("#navi-menu").pageslide({ 
+            direction:"right", 
+            speed:60,
+            iframe:false,
+            modal:false
+        });*/
+        
+      });
+    </script>
+  </body>
+</html>
